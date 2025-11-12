@@ -1,0 +1,86 @@
+       body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9fafc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9c0202;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1{
+            color: #eef6ff;
+            
+        }
+
+        h2, h3 {
+            color: #d70000;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #9c0202;
+            color: white;
+            padding: 15px;
+            margin-top: 50px;
+            margin-bottom: auto;
+        }
+        nav{
+  background-color: #630000;   /* warna latar belakang navbar */
+  position: fixed;             /* tetap di atas walau di-scroll */
+  top: 0;
+  left: 0;
+  width: 100%;                 /* lebar penuh */
+  z-index: 1000;               /* supaya selalu di atas elemen lain */
+}
+nav ul{  list-style: none;            /* hilangkan bullet list */
+  margin: 0;
+  padding: 0;
+  display: flex;               /* jadikan horizontal */
+  justify-content: center;  }
+  nav ul li{
+  margin: 0;
+}
+ nav ul li a{
+  display: block;
+  text-align: left;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+nav ul li a:hover {
+  background-color: #0078d7;   /* efek hover */
+}
+
+        .contoh {
+            background-color: #9c0202;
+            opacity: 0.95;
+            color: #eef6ff;
+            border-left: 4px solid #008f77;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 10px 0;
+ 
